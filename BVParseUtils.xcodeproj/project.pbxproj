@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F9619C1B24CDBA00E84694 /* BVParseUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43F9619B1B24CDBA00E84694 /* BVParseUtils.h */; };
+		43F961A41B24CDBA00E84694 /* libBVParseUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F961981B24CDBA00E84694 /* libBVParseUtils.a */; };
+		43F961B61B24CDD400E84694 /* BVModelItemDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F961B31B24CDD400E84694 /* BVModelItemDescriptor.m */; };
+		43F961B71B24CDD400E84694 /* BVParseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F961B51B24CDD400E84694 /* BVParseLoader.m */; };
+		43F961B81B24CE3E00E84694 /* BVModelItemDescriptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43F961B21B24CDD400E84694 /* BVModelItemDescriptor.h */; };
+		43F961B91B24CE4000E84694 /* BVParseLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43F961B41B24CDD400E84694 /* BVParseLoader.h */; };
+		43F961D31B24D01B00E84694 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F961D21B24D01B00E84694 /* Parse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F961A51B24CDBA00E84694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F961901B24CDBA00E84694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F961971B24CDBA00E84694;
+			remoteInfo = BVParseUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43F961961B24CDBA00E84694 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				43F9619C1B24CDBA00E84694 /* BVParseUtils.h in CopyFiles */,
+				43F961B81B24CE3E00E84694 /* BVModelItemDescriptor.h in CopyFiles */,
+				43F961B91B24CE4000E84694 /* BVParseLoader.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43F961981B24CDBA00E84694 /* libBVParseUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBVParseUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F9619B1B24CDBA00E84694 /* BVParseUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVParseUtils.h; sourceTree = "<group>"; };
+		43F961A31B24CDBA00E84694 /* BVParseUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BVParseUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F961A91B24CDBA00E84694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F961B21B24CDD400E84694 /* BVModelItemDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVModelItemDescriptor.h; sourceTree = "<group>"; };
+		43F961B31B24CDD400E84694 /* BVModelItemDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVModelItemDescriptor.m; sourceTree = "<group>"; };
+		43F961B41B24CDD400E84694 /* BVParseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVParseLoader.h; sourceTree = "<group>"; };
+		43F961B51B24CDD400E84694 /* BVParseLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVParseLoader.m; sourceTree = "<group>"; };
+		43F961D21B24D01B00E84694 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F961951B24CDBA00E84694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F961D31B24D01B00E84694 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F961A01B24CDBA00E84694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F961A41B24CDBA00E84694 /* libBVParseUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F9618F1B24CDBA00E84694 = {
+			isa = PBXGroup;
+			children = (
+				43F961D21B24D01B00E84694 /* Parse.framework */,
+				43F9619A1B24CDBA00E84694 /* BVParseUtils */,
+				43F961A71B24CDBA00E84694 /* BVParseUtilsTests */,
+				43F961991B24CDBA00E84694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F961991B24CDBA00E84694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F961981B24CDBA00E84694 /* libBVParseUtils.a */,
+				43F961A31B24CDBA00E84694 /* BVParseUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F9619A1B24CDBA00E84694 /* BVParseUtils */ = {
+			isa = PBXGroup;
+			children = (
+				43F9619B1B24CDBA00E84694 /* BVParseUtils.h */,
+				43F961B21B24CDD400E84694 /* BVModelItemDescriptor.h */,
+				43F961B31B24CDD400E84694 /* BVModelItemDescriptor.m */,
+				43F961B41B24CDD400E84694 /* BVParseLoader.h */,
+				43F961B51B24CDD400E84694 /* BVParseLoader.m */,
+			);
+			path = BVParseUtils;
+			sourceTree = "<group>";
+		};
+		43F961A71B24CDBA00E84694 /* BVParseUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F961A81B24CDBA00E84694 /* Supporting Files */,
+			);
+			path = BVParseUtilsTests;
+			sourceTree = "<group>";
+		};
+		43F961A81B24CDBA00E84694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F961A91B24CDBA00E84694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F961971B24CDBA00E84694 /* BVParseUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F961AC1B24CDBA00E84694 /* Build configuration list for PBXNativeTarget "BVParseUtils" */;
+			buildPhases = (
+				43F961941B24CDBA00E84694 /* Sources */,
+				43F961951B24CDBA00E84694 /* Frameworks */,
+				43F961961B24CDBA00E84694 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BVParseUtils;
+			productName = BVParseUtils;
+			productReference = 43F961981B24CDBA00E84694 /* libBVParseUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43F961A21B24CDBA00E84694 /* BVParseUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F961AF1B24CDBA00E84694 /* Build configuration list for PBXNativeTarget "BVParseUtilsTests" */;
+			buildPhases = (
+				43F9619F1B24CDBA00E84694 /* Sources */,
+				43F961A01B24CDBA00E84694 /* Frameworks */,
+				43F961A11B24CDBA00E84694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F961A61B24CDBA00E84694 /* PBXTargetDependency */,
+			);
+			name = BVParseUtilsTests;
+			productName = BVParseUtilsTests;
+			productReference = 43F961A31B24CDBA00E84694 /* BVParseUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F961901B24CDBA00E84694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = VitocDev;
+				TargetAttributes = {
+					43F961971B24CDBA00E84694 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					43F961A21B24CDBA00E84694 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 43F961931B24CDBA00E84694 /* Build configuration list for PBXProject "BVParseUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43F9618F1B24CDBA00E84694;
+			productRefGroup = 43F961991B24CDBA00E84694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F961971B24CDBA00E84694 /* BVParseUtils */,
+				43F961A21B24CDBA00E84694 /* BVParseUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F961A11B24CDBA00E84694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F961941B24CDBA00E84694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F961B71B24CDD400E84694 /* BVParseLoader.m in Sources */,
+				43F961B61B24CDD400E84694 /* BVModelItemDescriptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F9619F1B24CDBA00E84694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F961A61B24CDBA00E84694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F961971B24CDBA00E84694 /* BVParseUtils */;
+			targetProxy = 43F961A51B24CDBA00E84694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43F961AA1B24CDBA00E84694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43F961AB1B24CDBA00E84694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F961AD1B24CDBA00E84694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43F961AE1B24CDBA00E84694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		43F961B01B24CDBA00E84694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BVParseUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43F961B11B24CDBA00E84694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BVParseUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F961931B24CDBA00E84694 /* Build configuration list for PBXProject "BVParseUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F961AA1B24CDBA00E84694 /* Debug */,
+				43F961AB1B24CDBA00E84694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F961AC1B24CDBA00E84694 /* Build configuration list for PBXNativeTarget "BVParseUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F961AD1B24CDBA00E84694 /* Debug */,
+				43F961AE1B24CDBA00E84694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F961AF1B24CDBA00E84694 /* Build configuration list for PBXNativeTarget "BVParseUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F961B01B24CDBA00E84694 /* Debug */,
+				43F961B11B24CDBA00E84694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F961901B24CDBA00E84694 /* Project object */;
+}
