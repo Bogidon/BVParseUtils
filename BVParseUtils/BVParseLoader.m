@@ -46,7 +46,6 @@ typedef void (^APXRecurseBlock) (BVModelItemDescriptor* itemDescriptor, NSString
     for (NSArray *lineage in [itemDescriptor lineagesOfLeaves]) {
         NSString *includeKeys = [lineage componentsJoinedByString:@"."];
         [query includeKey:includeKeys];
-        NSLog(@"%@",includeKeys);
     }
 }
 
